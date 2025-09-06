@@ -1,9 +1,10 @@
 import Note from "../models/Note.js";
 
+// TODO: refactor all these try/catch blocks with a wrapper func
 
-export const getAllNotes = async (req, res) => { 
+export const getAllNotes = async (_, res) => { 
     try {
-        const notes = await Note.find();
+        const notes = await Note.find().sort({createdAt: -1}); // newest first
         res.status(200).json(notes);
     } catch (error) {
         console.error("Error in getAllNotes controller", error);
