@@ -6,3 +6,4 @@ A simple note taking app using the MERN stack. This project is primarily for mys
 
 - Install Node
 - Run 'npm run build' from project root
+- Run 'npm run start' from project root
