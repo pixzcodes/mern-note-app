@@ -1,9 +1,4 @@
-# WIP
-
-https://youtu.be/F9gB5b4jgOI?si=AK1_9w_ZV-1IVIxw
-2:35:00
-
-## mern-note-app
+# mern-note-app
 
 A simple note taking app using the MERN stack. This project is primarily for myself to learn and experiment with the MERN web stack.
 
